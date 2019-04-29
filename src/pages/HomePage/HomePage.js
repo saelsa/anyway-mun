@@ -7,6 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import AccidentsByAge from './AccidentsByAge';
 import AccidentsByYear from './AccidentsByYear';
 import AccidentsByStreet from './AccidentsByStreet';
+import AccidentSeverityByYear from './AccidentSeverityByYear';
 
 class HomePage extends Component {
   render() {
@@ -64,7 +65,7 @@ class HomePage extends Component {
           </Grid>
           <Grid item md>
             <Card style={{ marginBottom: "10px", height: "300px" }} >
-
+              <AccidentSeverityByYear />
             </Card>
           </Grid>
         </Grid>
